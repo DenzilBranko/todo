@@ -1,5 +1,8 @@
 define([
+ "../models/todo",
     "backbone"
-], function() {
-    return Backbone.Collection.extend({});
+], function(TodoModel) {
+    return Backbone.Collection.extend({
+        model : TodoModel
+    });
 });
