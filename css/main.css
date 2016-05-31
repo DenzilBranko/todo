@@ -1,0 +1,44 @@
+/*#container{
+	margin-top: 50px;
+    margin-bottom: 10%;
+    align:center;
+}
+
+
+h1 {
+	display: block;
+	margin-left: 50%;
+	text-align: center;
+	color: orange;
+	font-family: "Times New Roman", Times, serif;
+}
+
+body{
+      
+}
+
+
+#next{
+	 margin-left: 36%
+}
+
+.mytext{
+	background-color : #99FFCC;
+	border: 1px solid #008000;
+	width: 250px;
+	height:31}
+ 
+
+
+#content{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left:50%;
+    color:greenyellow
+
+}*/
+
+.update{
+	display:none;
+}

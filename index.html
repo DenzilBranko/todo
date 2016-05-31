@@ -1,13 +1,26 @@
 <html>
     <head>
         <title>My first app  </title>
-        <script type="text/javascript" src="js/lib/require.js" data-main="js/main"></script>
+              <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/lib/require.js" data-main="js/main"></script>
+            <link rel="stylesheet" type"stylesheet/css" href="css/main.css">
     </head>
     <body>
-
-    <h1>Todo lists</h1>
-    <input type="text" /><button>add</button>
-    <div id="content"></div>
-
+        <h1>Todo lists</h1>
+        <div class="create">
+            <input type="text" /><button class="add">add</button><button class="clear">clear</button>
+        </div>
+        
+        <div class="update">
+            <input type="text"  name="edit_list" />
+            <button class="save">save</button>&nbsp<button class="cancel">cancel</button>
+        </div>
+        
+        <br />
+        
+        <div id="content"></div>
+             
     </body>
 </html>
